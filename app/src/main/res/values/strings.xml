@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ProtectCode</string>
+    <string name="verify_hint">请输入密码</string>
+    <string name="ensure">确定</string>
+    <string name="enter">进入</string>
+    <string name="default_">默认</string>
+    <string name="money">金钱</string>
+    <string name="life">生活</string>
+    <string name="net">网络</string>
+    <string name="title_">标题</string>
+    <string name="password">密码</string>
+    <string name="descrip">描述</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="title_activity_content">ContentActivity</string>
+</resources>

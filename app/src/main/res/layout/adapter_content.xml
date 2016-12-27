@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mouse.cookie.protectcode.customview.SwipeListLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sll_adapter_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_adapter_content_edit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/edit"
+            android:textSize="@dimen/size_text_20"
+            android:textColor="@color/color_write_background"
+            android:background="@color/color_yellow"/>
+
+        <Button
+            android:id="@+id/btn_adapter_content_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            android:textSize="@dimen/size_text_20"
+            android:textColor="@color/color_write_background"
+            android:background="@color/color_red"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_adapter_content_type"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/tv_adapter_content_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_"
+            android:layout_below="@+id/iv_adapter_content_type"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:id="@+id/tv_adapter_content_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textSize="@dimen/size_text_6"
+            android:layout_below="@+id/tv_adapter_content_descrip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:id="@+id/tv_adapter_content_descrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descrip"
+            android:layout_below="@+id/tv_adapter_content_title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+    </RelativeLayout>
+
+</com.mouse.cookie.protectcode.customview.SwipeListLayout>
